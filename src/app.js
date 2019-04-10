@@ -18,7 +18,8 @@ function Cell(props) {
 }
 
 class Board extends React.Component {
-  constructor(props) {
+
+	constructor(props) {
     super(props);
     this.state = {
       aliveCells: []
